@@ -322,7 +322,7 @@ async def listenCallback(ctx: BotContext[CallbackQueryEvent]):
         inline_markup=InlineMarkup(
             [
                 [InlineKeyboardButton("Direct Download", url=file.file_url)],
-                [InlineKeyboardButton("Stream file", callback_data=f"vfile|{data}")],
+                [InlineKeyboardButton("Stream file", url=file.file_url)],
             ]
         ),
     )
