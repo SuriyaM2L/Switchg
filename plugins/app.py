@@ -331,7 +331,7 @@ async def onCommand(ctx: BotContext[CommandEvent]):
         inline_markup=InlineMarkup(
             [
                 [
-                    InlineKeyboardButton("Stream", callback_data=f"stream_{hash}"),
+                    InlineKeyboardButton("Stream", url=url),
                     InlineKeyboardButton("Download", url=url),
                 ]
             ]
