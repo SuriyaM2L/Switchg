@@ -14,7 +14,7 @@ aiohttp-client-cache
 aniparse
 guessit
 rapidfuzz
-pyrogram
+pyrofork
 bs4
 requests
 apscheduler
